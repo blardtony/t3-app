@@ -2,9 +2,6 @@ import Head from "next/head";
 
 import { api } from "~/utils/api";
 
-const CreatePost = () => {
-  const 
-}
 
 export default function Home() {
   const { data, isLoading } = api.post.getAll.useQuery();
